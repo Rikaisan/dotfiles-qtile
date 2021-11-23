@@ -34,6 +34,10 @@ font:
     family: consolas
  size: 8
  
+window:
+  padding:
+    x: 6
+    y: 6
 
 # Font configuration
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
