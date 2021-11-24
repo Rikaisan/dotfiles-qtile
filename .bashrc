@@ -17,9 +17,9 @@ GREEN='\e[0;32m'
 PURPLE='\e[0;35m'
 COLOR_END='\e[m'
 
-VISIBLE_PROMPT="${CYAN}\u@${CYAN}\h ${GREEN}\w${CYAN}> "
+VISIBLE_PROMPT="${CYAN}\u@\h ${GREEN}\w${CYAN}>"
 
-export PS1="${VISIBLE_PROMPT}${COLOR_END}"
+export PS1="${VISIBLE_PROMPT}${COLOR_END} "
 
 
 export AUR=https://aur.archlinux.org
