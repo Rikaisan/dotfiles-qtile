@@ -24,7 +24,7 @@ GREEN='\[\e[0;32m\]'
 RED='\[\e[0;31m\]'
 COLOR_END='\[\e[m\]'
 
-VISIBLE_PROMPT="${CYAN}\u@\h${WHITE} ${GREEN}\W${RED} "'$(__git_ps1 "[%s]")'"${CYAN}>"
+VISIBLE_PROMPT="${CYAN}\u@\h${WHITE} ${GREEN}\W${RED}"'$(__git_ps1 " [%s]")'"${CYAN}>"
 
 
 # Notice the space at the end used as padding for commands
