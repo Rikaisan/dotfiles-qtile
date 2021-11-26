@@ -14,8 +14,9 @@ __git_complete dotfiles __git_main
 
 CYAN='\[\e[0;36m\]'
 GREEN='\[\e[0;32m\]'
+RED='\[\e[0;31m\]'
 COLOR_END='\[\e[m\]'
-VISIBLE_PROMPT="${CYAN}\u@\h ${GREEN}\W${CYAN}>"
+VISIBLE_PROMPT="${CYAN}\u@\h${WHITE} ${GREEN}\W ${RED}"'$(__git_ps1 "[%s]")'"${CYAN}>"
 
 # Notice the space at the end used as padding for commands
 PS1="${VISIBLE_PROMPT}${COLOR_END} "
