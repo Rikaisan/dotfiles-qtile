@@ -12,10 +12,10 @@ alias dotignore='dotfiles update-index --assume-unchanged'
 source /usr/share/bash-completion/completions/git
 __git_complete dotfiles __git_main
 
-CYAN='\e[0;36m'
-GREEN='\e[0;32m'
-COLOR_END='\e[m'
-VISIBLE_PROMPT="${CYAN}\u@\h ${GREEN}\w${CYAN}>"
+CYAN='\[\e[0;36m\]'
+GREEN='\[\e[0;32m\]'
+COLOR_END='\[\e[m\]'
+VISIBLE_PROMPT="${CYAN}\u@\h ${GREEN}\W${CYAN}>"
 
 # Notice the space at the end used as padding for commands
 PS1="${VISIBLE_PROMPT}${COLOR_END} "
